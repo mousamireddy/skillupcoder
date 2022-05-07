@@ -1,0 +1,12 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int r;
+    cin>>r;
+    float a;
+    a=3.14*r*r;
+    std::cout<<std::fixed<<std::setprecision(2)
+    <<a;
+}
